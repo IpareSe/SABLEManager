@@ -1,0 +1,11 @@
+framework module SABLEManager {
+  umbrella header "SABLEManager.h"
+
+  export *
+  module * { export * }
+}
+
+module SABLEManager.Swift {
+    header "SABLEManager-Swift.h"
+    requires objc
+}
